@@ -1,0 +1,23 @@
+.avatar {
+  border-radius: 50%;
+}
+.avatar.xsmall {
+  width: var(--size-avatar-xsmall);
+  height: var(--size-avatar-xsmall);
+}
+.avatar.small {
+  width: var(--size-avatar-small);
+  height: var(--size-avatar-small);
+}
+.avatar.medium {
+  width: var(--size-avatar-medium);
+  height: var(--size-avatar-medium);
+}
+.avatar.large {
+  width: var(--size-avatar-large);
+  height: var(--size-avatar-large);
+}
+.avatar.xlarge {
+  width: var(--size-avatar-xlarge);
+  height: var(--size-avatar-xlarge);
+}

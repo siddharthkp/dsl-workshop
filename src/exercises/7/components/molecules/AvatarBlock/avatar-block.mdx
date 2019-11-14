@@ -1,0 +1,18 @@
+import { Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { AvatarBlock } from "./";
+
+# Avatar Block
+
+Displays an image and supporting text for a user
+
+<Preview withSource="open">
+  <Story id="avatarblock--simple" />
+</Preview>
+
+<Props of={AvatarBlock} />
+
+You can attach a `Badge` to an `AvatarBlock` by using the `label` prop.
+
+<Preview>
+  <Story id="avatarblock--with-label" />
+</Preview>

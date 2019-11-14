@@ -1,0 +1,100 @@
+:root {
+  --white: #fff;
+
+  --gray-100: #f4f4f4;
+  --gray-200: #eee;
+  --gray-300: #ddd;
+  --gray-400: #bbb;
+  --gray-500: #999;
+  --gray-600: #777;
+  --gray-700: #666;
+  --gray-800: #444;
+  --gray-900: #333;
+
+  --pink-500: #d95988;
+  --pink-700: #df3e7b;
+  --pink-900: #c22b65;
+
+  --red-300: #ed615c;
+  --red-500: #ea3423;
+  --red-700: #ae2318;
+
+  --blue-300: #4fb4de;
+  --blue-500: #3a8bbb;
+  --blue-700: #1e6189;
+  --blue-900: #0c3f5d;
+
+  --green-500: #7bbb5e;
+  --green-700: #5b9540;
+  --green-900: #3b6d25;
+
+  --space-0: 0;
+  --space-1: 5px;
+  --space-2: 10px;
+  --space-3: 15px;
+  --space-4: 20px;
+  --space-5: 25px;
+  --space-6: 30px;
+
+  --fontsize-1: 12px;
+  --fontsize-2: 13px;
+  --fontsize-3: 14px;
+  --fontsize-4: 15px;
+  --fontsize-5: 16px;
+  --fontsize-6: 18px;
+  --fontsize-7: 20px;
+  --fontsize-8: 30px;
+
+  --fontweights-default: 400;
+  --fontweights-medium: 500;
+  --fontweights-bold: 700;
+
+  --radii-small: 3px;
+  --radii-medium: 4px;
+  --radii-large: 6px;
+
+  --shadow-shallow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-normal: 0px 0px 1px rgba(102, 102, 102, 0.5),
+    0px 1px 2px rgba(102, 102, 102, 0.25);
+  --shadow-deep: 0px 0px 1px rgba(102, 102, 102, 0.5), 0px 2px 2px #dddddd;
+  --shadow-inset: inset 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* decisions */
+:root {
+  --color-brand-500: var(--pink-500);
+  --color-brand-700: var(--pink-700);
+  --color-brand-900: var(--pink-900);
+
+  --color-primary-500: var(--brand-500);
+  --color-primary-700: var(--brand-700);
+  --color-primary-900: var(--brand-900);
+
+  --color-accent-300: var(--blue-300);
+  --color-accent-500: var(--blue-500);
+  --color-accent-700: var(--blue-700);
+  --color-accent-900: var(--blue-900);
+
+  --color-success-500: var(--green-500);
+  --color-success-700: var(--green-700);
+  --color-success-900: var(--green-900);
+
+  --color-text-primary: var(--gray-800);
+  --color-text-primary-light: var(--gray-700);
+  --color-text-secondary: var(--gray-500);
+  --color-text-subtle: var(--gray-400);
+
+  --color-info-500: var(--gray-300);
+  --color-border-info: var(--gray-400);
+
+  --size-avatar-xsmall: 16px;
+  --size-avatar-small: 30px;
+  --size-avatar-medium: 48px;
+  --size-avatar-large: 80px;
+  --size-avatar-xlarge: 100px;
+
+  --size-button-xsmall: 24px;
+  --size-button-small: 32px;
+  --size-button-medium: 40px;
+  --size-button-large: 48px;
+}

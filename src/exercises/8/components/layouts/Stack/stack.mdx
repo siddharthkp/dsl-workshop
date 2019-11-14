@@ -1,0 +1,24 @@
+import { Preview, Story, Props } from "@storybook/addon-docs/blocks";
+import { Stack } from "./";
+
+# Stack
+
+Stack is a `layout` component that can be used to lay other components out.
+
+<Preview>
+  <Story id="stack--simple" />
+</Preview>
+
+This is essentially a glorified wrapper around flexbox with 1 additional feature.
+
+<Props of={Stack} />
+
+<Preview withSource="open">
+  <Story id="stack--flex" />
+</Preview>
+
+You can add margin between consecutive elements using the `gap` prop without setting width on the container.
+
+<Preview withSource="open">
+  <Story id="stack--gap" />
+</Preview>

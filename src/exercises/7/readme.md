@@ -4,6 +4,8 @@
 
 > Figma link: https://www.figma.com/file/qcf9SB4yhjkTdNBTceoHjE/E7%3A-Code-Molecules
 
+> Don't forget to change the exercise in .storybook/config.js
+
 ## CHALLENGE:
 
 Create the `Shot` component by composing atoms and molecules from the library.
